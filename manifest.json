@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "name": "Rituraj's Portfolio",
+    "version": "133.0",
+    "description": "Personal Portfolio (Rituraj Kumar)",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}
