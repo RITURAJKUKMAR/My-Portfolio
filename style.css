@@ -494,6 +494,11 @@ main {
                         position: relative;
                         width: 140px;
                         height: 140px;
+                        transition: transform 0.3s ease;
+                    }
+
+                    .pro-skill:hover {
+                        transform: translateY(-5px);
                     }
 
                     .pro-skill svg {
@@ -518,6 +523,7 @@ main {
                         stroke-dashoffset: calc(377 - (377 * var(--percent) / 100));
                         transition: stroke-dashoffset 1s;
                         cursor: pointer;
+                        filter: drop-shadow(0 0 3.5px);
                     }
 
                     .pro-skill .percent-text {
@@ -561,7 +567,7 @@ main {
         }
     }
 
-    .services{
+    .services {
         background-color: red;
     }
 
@@ -778,7 +784,7 @@ main {
     display: block;
 }
 
-.up-arrow{
+.up-arrow {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
     font-size: 30px;
