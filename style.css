@@ -781,7 +781,7 @@ main {
 .up-arrow{
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
-    font-size: 40px;
+    font-size: 30px;
     position: fixed;
     display: inline-block;
     bottom: 10px;
