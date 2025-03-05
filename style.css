@@ -341,6 +341,7 @@ main {
                 .language {
                     display: flex;
                     flex-direction: column;
+                    font-family: Arial, sans-serif;
 
                     .lang {
                         /* background-color: pink; */
@@ -349,6 +350,16 @@ main {
                         display: flex;
                         justify-content: space-around;
                         align-items: center;
+                        text-align: left;
+                        flex-direction: column;
+
+                        .lang-name {
+                            /* background-color: red; */
+                            width: 80%;
+                            svg{
+                                height: 25px;
+                            }
+                        }
 
                         i {
                             font-size: 24px;
@@ -360,7 +371,6 @@ main {
                             width: 80%;
                             height: 10px;
                             border-radius: 10px;
-                            cursor: pointer;
 
                             .perce {
                                 background-color: var(--main-bg-color);
@@ -368,6 +378,13 @@ main {
                                 width: 90%;
                                 border-radius: inherit;
                                 box-shadow: 0 0 10px var(--main-bg-color);
+                                cursor: pointer;
+                            }
+
+                            .p {
+                                position: relative;
+                                left: 90%;
+                                font-weight: 900;
                             }
                         }
                     }
@@ -382,6 +399,11 @@ main {
                                 background-color: var(--main-bg-color);
                                 width: 60%;
                             }
+
+                            .p {
+                                position: relative;
+                                left: 60%;
+                            }
                         }
                     }
 
@@ -394,6 +416,11 @@ main {
                             .perce {
                                 background-color: var(--main-bg-color);
                                 width: 70%;
+                            }
+
+                            .p {
+                                position: relative;
+                                left: 70%;
                             }
                         }
                     }
@@ -408,6 +435,11 @@ main {
                                 background-color: var(--main-bg-color);
                                 width: 60%;
                             }
+
+                            .p {
+                                position: relative;
+                                left: 60%;
+                            }
                         }
                     }
 
@@ -420,6 +452,11 @@ main {
                             .perce {
                                 background-color: var(--main-bg-color);
                                 width: 95%;
+                            }
+
+                            .p {
+                                position: relative;
+                                left: 95%;
                             }
                         }
                     }
@@ -434,6 +471,11 @@ main {
                                 background-color: var(--main-bg-color);
                                 width: 50%;
                             }
+
+                            .p {
+                                position: relative;
+                                left: 50%;
+                            }
                         }
                     }
 
@@ -447,6 +489,11 @@ main {
                                 background-color: var(--main-bg-color);
                                 width: 85%;
                             }
+
+                            .p {
+                                position: relative;
+                                left: 85%;
+                            }
                         }
                     }
 
@@ -459,6 +506,11 @@ main {
                             .perce {
                                 background-color: var(--main-bg-color);
                                 width: 80%;
+                            }
+
+                            .p {
+                                position: relative;
+                                left: 80%;
                             }
                         }
                     }
