@@ -357,7 +357,7 @@ main {
                             /* background-color: red; */
                             width: 80%;
                             svg{
-                                height: 25px;
+                                height: 20px;
                             }
                         }
 
@@ -379,12 +379,17 @@ main {
                                 border-radius: inherit;
                                 box-shadow: 0 0 10px var(--main-bg-color);
                                 cursor: pointer;
+                                transition: 0.5s;
+                            }
+
+                            .perce:hover{
+                                box-shadow: 0 0 20px;
                             }
 
                             .p {
                                 position: relative;
                                 left: 90%;
-                                font-weight: 900;
+                                font-weight: 700;
                             }
                         }
                     }
@@ -462,10 +467,6 @@ main {
                     }
 
                     .django {
-                        i {
-                            color: #00549D;
-                        }
-
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
