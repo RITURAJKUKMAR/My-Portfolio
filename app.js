@@ -25,3 +25,8 @@ menuList.forEach((a) => {
         });
     });
 });
+
+
+// function downloadPDF() {
+//     print(home);   // print full website
+// }

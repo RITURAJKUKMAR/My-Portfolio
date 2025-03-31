@@ -356,7 +356,8 @@ main {
                         .lang-name {
                             /* background-color: red; */
                             width: 80%;
-                            svg{
+
+                            svg {
                                 height: 20px;
                             }
                         }
@@ -382,7 +383,7 @@ main {
                                 transition: 0.5s;
                             }
 
-                            .perce:hover{
+                            .perce:hover {
                                 box-shadow: 0 0 20px;
                             }
 
@@ -844,8 +845,8 @@ main {
     position: fixed;
     display: inline-block;
     bottom: 10px;
-    padding: 0 7px;
+    padding: 0 11px;
     border: 1px black solid;
-    border-radius: 7px;
+    border-radius: 100%;
     right: 10px;
 }
