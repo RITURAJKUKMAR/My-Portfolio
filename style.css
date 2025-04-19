@@ -403,12 +403,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 60%;
+                                width: 75%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 60%;
+                                left: 75%;
                             }
                         }
                     }
@@ -439,12 +439,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 60%;
+                                width: 85%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 60%;
+                                left: 85%;
                             }
                         }
                     }
@@ -471,12 +471,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 50%;
+                                width: 80%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 50%;
+                                left: 80%;
                             }
                         }
                     }
@@ -489,12 +489,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 85%;
+                                width: 95%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 85%;
+                                left: 95%;
                             }
                         }
                     }
@@ -507,12 +507,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 80%;
+                                width: 95%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 80%;
+                                left: 95%;
                             }
                         }
                     }
@@ -845,7 +845,7 @@ main {
     position: fixed;
     display: inline-block;
     bottom: 10px;
-    padding: 0 10px;
+    padding: 0 11px;
     border: 1px black solid;
     border-radius: 100%;
     right: 10px;
