@@ -485,6 +485,24 @@ main {
                         }
                     }
 
+                    .java {
+                        i {
+                            color:  #f06529;
+                        }
+
+                        .perce-line {
+                            .perce {
+                                background-color: var(--main-bg-color);
+                                width: 70%;
+                            }
+
+                            .p {
+                                position: relative;
+                                left: 70%;
+                            }
+                        }
+                    }
+
                     .dsa {
                         i {
                             color: #00549D;
