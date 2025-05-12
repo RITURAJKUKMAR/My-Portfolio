@@ -684,7 +684,7 @@ main {
                 align-content: center;
 
                 input,
-                .message,
+                .sms,
                 button {
                     outline: none;
                     border: 2px var(--main-bg-color) solid;
@@ -697,7 +697,7 @@ main {
                     font-size: 15px;
                 }
 
-                .message {
+                .sms {
                     height: 200px;
                     font-size: 18px;
                     font-weight: 900;
