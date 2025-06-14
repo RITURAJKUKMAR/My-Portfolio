@@ -8,7 +8,7 @@ function sendEmail() {
     var params = {
         name: document.querySelector(".name").value,
         email: document.querySelector(".email").value,
-        email: document.querySelector(".mobile").value,
+        mobile: document.querySelector(".mobile").value,
         sms: document.querySelector(".sms").value,
     }
     const serviceID = "service_o243fyw";
