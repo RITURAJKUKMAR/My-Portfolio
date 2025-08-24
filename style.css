@@ -280,6 +280,7 @@ main {
                         left: 0;
                         bottom: 0;
                         overflow: hidden;
+                        color: black;
                         transition: height 0.5s;
 
                         h3 {
@@ -421,12 +422,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 70%;
+                                width: 80%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 70%;
+                                left: 80%;
                             }
                         }
                     }
@@ -493,12 +494,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 70%;
+                                width: 80%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 70%;
+                                left: 80%;
                             }
                         }
                     }
