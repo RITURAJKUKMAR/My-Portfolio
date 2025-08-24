@@ -414,6 +414,24 @@ main {
                         }
                     }
 
+                    .sql {
+                        i {
+                            color: #2965f1;
+                        }
+
+                        .perce-line {
+                            .perce {
+                                background-color: var(--main-bg-color);
+                                width: 70%;
+                            }
+
+                            .p {
+                                position: relative;
+                                left: 70%;
+                            }
+                        }
+                    }
+
                     .js {
                         i {
                             color: var(--main-bg-color);
